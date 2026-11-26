@@ -6,7 +6,7 @@ import { formatNumber } from '@/lib/format'
 import { cn, uid } from '@/lib/utils'
 import { DESCRIPTION_MAX, HEADLINE_MAX } from '../lib'
 import type { Draft, SetDraft } from './draft'
-import { SearchAdPreview } from './SearchAdPreview'
+import { SearchAdPreview } from './SearchPreview'
 
 const MATCH_LABEL: Record<KeywordMatchType, string> = { EXACT: 'Exata', PHRASE: 'Frase', BROAD: 'Ampla' }
 const MATCH_TONE = { EXACT: 'primary', PHRASE: 'violet', BROAD: 'neutral' } as const

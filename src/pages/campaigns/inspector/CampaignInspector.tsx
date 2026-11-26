@@ -9,10 +9,10 @@ import { PlatformGlyph } from '../CampaignTable'
 import { campaignRangeMetrics, mergeDaily, PLATFORM_SHORT } from '../lib'
 import { draftFrom, isDirty, toPatch, validate, type Draft, type SetDraft } from './draft'
 import { OverviewTab } from './OverviewTab'
-import { GoogleAdsTab } from './GoogleAdsTab'
-import { MetaAdsTab } from './MetaAdsTab'
+import { GoogleAdsTab } from './GoogleChannelTab'
+import { MetaAdsTab } from './MetaChannelTab'
 import { NegativesTab } from './NegativesTab'
-import { TrackingTab } from './TrackingTab'
+import { TrackingTab } from './AttributionTab'
 
 type TabKey = 'overview' | 'ads' | 'negatives' | 'tracking'
 
