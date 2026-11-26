@@ -1,4 +1,4 @@
-import { createBrowserRouter } from 'react-router-dom'
+import { createHashRouter } from 'react-router-dom'
 import { AppShell } from '@/components/layout/AppShell'
 import NotFound from '@/components/misc/NotFound'
 import DashboardPage from '@/pages/dashboard'
@@ -10,7 +10,7 @@ import AutomationPage from '@/pages/automation'
 import CatalogPage from '@/pages/catalog'
 import SettingsPage from '@/pages/settings'
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: '/',
     element: <AppShell />,
